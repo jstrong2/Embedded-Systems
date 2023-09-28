@@ -25,6 +25,36 @@ int main()
         buzz.playTone("C");
         wait_us(WAIT_TIME_MS * 250);  //500ms
 
+        //On for 500ms
+        greenLED = 1;
+        buzz.playTone("D");
+        wait_us(WAIT_TIME_MS * 250);  //500ms
+
+        //On for 500ms
+        greenLED = 1;
+        buzz.playTone("E");
+        wait_us(WAIT_TIME_MS * 250);  //500ms
+
+        //On for 500ms
+        greenLED = 1;
+        buzz.playTone("F");
+        wait_us(WAIT_TIME_MS * 250);  //500ms
+
+        //On for 500ms
+        greenLED = 1;
+        buzz.playTone("G");
+        wait_us(WAIT_TIME_MS * 250);  //500ms
+
+        //On for 500ms
+        greenLED = 1;
+        buzz.playTone("A");
+        wait_us(WAIT_TIME_MS * 250);  //500ms
+
+        //On for 500ms
+        greenLED = 1;
+        buzz.playTone("B");
+        wait_us(WAIT_TIME_MS * 250);  //500ms
+
 
         //Off for 500ms
         greenLED = 0;
@@ -33,7 +63,7 @@ int main()
 
         //Pause
         buzz.rest();
-        wait_us(WAIT_TIME_MS * 1000);
+        wait_us(WAIT_TIME_MS * 250);
 
     }
 }
