@@ -20,50 +20,109 @@ int main()
     //Repeat everything "forever" (until the power is removed or the chip is reset)
     while (true)
     {
-        //On for 500ms
+        //On for 1000ms
         greenLED = 1;
         buzz.playTone("C");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
-        //On for 500ms
-        greenLED = 1;
-        buzz.playTone("D");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
-        //On for 500ms
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500ms
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 450); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        buzz.playTone("C");
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        
+       
+        //On for 1000ms
         greenLED = 1;
         buzz.playTone("E");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
-        //On for 500ms
+        wait_us(WAIT_TIME_MS * 150);  //500ms
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500ms
+        buzz.playTone("E");
+        wait_us(WAIT_TIME_MS * 450); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        buzz.playTone("E");
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        
+        
+        //On for 1000ms
         greenLED = 1;
         buzz.playTone("F");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
-        //On for 500ms
+        wait_us(WAIT_TIME_MS * 150);  //500ms
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500ms
+        buzz.playTone("F");
+        wait_us(WAIT_TIME_MS * 450); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        buzz.playTone("F");
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        
+        
+        //On for 1000ms
         greenLED = 1;
         buzz.playTone("G");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
-        //On for 500ms
+        wait_us(WAIT_TIME_MS * 150);  //500ms
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500ms
+        buzz.playTone("G");
+        wait_us(WAIT_TIME_MS * 450); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        buzz.playTone("G");
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        
+        
+        //On for 1000ms
         greenLED = 1;
         buzz.playTone("A");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
-        //On for 500ms
+        wait_us(WAIT_TIME_MS * 150);  //500ms
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500ms
+        buzz.playTone("A");
+        wait_us(WAIT_TIME_MS * 450); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        buzz.playTone("A");
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        
+        
+        //On for 1000ms
         greenLED = 1;
         buzz.playTone("B");
-        wait_us(WAIT_TIME_MS * 250);  //500ms
-
+        wait_us(WAIT_TIME_MS * 150);  //500ms
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500ms
+        buzz.playTone("B");
+        wait_us(WAIT_TIME_MS * 450); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
+        buzz.playTone("B");
+        wait_us(WAIT_TIME_MS * 150); 
+        buzz.rest();
+        wait_us(WAIT_TIME_MS * 1000);//500m
 
         //Off for 500ms
         greenLED = 0;
         buzz.playTone("C", Buzzer::HIGHER_OCTAVE);
-        wait_us(WAIT_TIME_MS * 250);  //500ms
+        wait_us(WAIT_TIME_MS * 150);  //500ms
 
         //Pause
         buzz.rest();
-        wait_us(WAIT_TIME_MS * 250);
+        wait_us(WAIT_TIME_MS * 3000);
 
     }
 }
