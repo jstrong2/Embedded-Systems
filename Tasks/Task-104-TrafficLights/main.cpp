@@ -12,17 +12,17 @@ LCD_16X2_DISPLAY lcd;
 int main()
 {
     lcd.puts("RED");
-    wait_us(1000000);
+    wait_us(10000000);
 
     amber = 1;
     lcd.cls();
     lcd.puts("Amber");
-    wait_us(1000000);
+    wait_us(12000000);
 
     green = 1;
     lcd.cls();
     lcd.puts("Green");    
-    wait_us(1000000);
+    wait_us(20000000);
 
     lcd.cls();
     lcd.puts("TASK-104");
