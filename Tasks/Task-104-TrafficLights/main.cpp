@@ -33,8 +33,43 @@ int main()
 
     red = 0; amber = 1; green = 0;
     lcd.cls();
-    lcd.puts("Amber");
-    wait_us(2*SECONDS);
+    lcd.puts("Amber 1");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 0; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 1");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 1; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 2");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 0; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 2");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 1; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 3");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 0; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 3");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 1; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 4");
+    wait_us(0.5*SECONDS);
+
+    red = 0; amber = 0; green = 0;
+    lcd.cls();
+    lcd.puts("Amber 4");
+    wait_us(0.5*SECONDS);
 
   }
 }

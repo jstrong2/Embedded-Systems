@@ -24,16 +24,16 @@ int main()
     printf("\nTASK-110\n");
 
     // Integer
-    int count = 0;
+    int count = 10;
     printf("count = %d\n", count);
 
     // Add one to count
-    count = count + 1;
+    unsigned intCount = unsigned intCount + 2;
     printf("New value of count = %d\n", count);
 
     // Char
     char character;
-    character = 'A';
+    character = '0';
     printf("The character %c has the ASCII code %d\n", character, character);
 
     // Short
@@ -62,7 +62,7 @@ int main()
     printf("The value of pi is approximately %lf\n", pi_double);
 
     // Data type sizes (in bytes)
-    printf("Size of a char is %d bytes\n", sizeof(char));
+    printf("Size of a char is %d bytes\n\n\n", sizeof(char));
     printf("Size of a short is %d bytes\n", sizeof(short));
     printf("Size of a int is %d bytes\n", sizeof(int));
     printf("Size of a long is %d bytes\n", sizeof(long));
